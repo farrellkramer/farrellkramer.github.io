@@ -1,57 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="https://www.facebook.com/2008/fbml">
 <head>
-        <meta charset="utf-8" />
-        <title>Code Farrell - Tags</title>
-        <link rel="stylesheet" href="http://farrellkramer.github.io/theme/css/main.css" />
-        <link href="http://farrellkramer.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Code Farrell Atom Feed" />
+    <title>Tags - Code Farrell</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
 
-        <!--[if IE]>
-            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+
+    <!-- Open Graph tags -->
+        <meta property="og:site_name" content="Code Farrell" />
+            <meta property="og:type" content="website"/>
+            <meta property="og:title" content="Code Farrell"/>
+            <meta property="og:url" content="http://farrellkramer.github.io"/>
+            <meta property="og:description" content="Code Farrell"/>
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="http://farrellkramer.github.io/theme/css/bootstrap.min.css" type="text/css"/>
+    <link href="http://farrellkramer.github.io/theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="http://farrellkramer.github.io/theme/css/pygments/native.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://farrellkramer.github.io/theme/css/style.css" type="text/css"/>
+
+        <link href="http://farrellkramer.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="Code Farrell ATOM Feed"/>
+
 </head>
+<body>
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="http://farrellkramer.github.io/">Code Farrell </a></h1>
-                <nav><ul>
-                    <li><a href="http://farrellkramer.github.io/category/tech.html">Tech</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="http://farrellkramer.github.io/" class="navbar-brand">
+Code Farrell            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                        <li >
+                            <a href="http://farrellkramer.github.io/category/tech.html">Tech</a>
+                        </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="http://farrellkramer.github.io/archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
 
-<section id="content" class="body">
-    <h1>Tags for Code Farrell</h1>
-    <ul>
-    </ul>
-</section>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
 
-        <section id="extras" class="body">
-                <div class="blogroll">
-                        <h2>blogroll</h2>
-                        <ul>
-                            <li><a href="http://farrellkramer.com">.farrell</a></li>
-                        </ul>
-                </div><!-- /.blogroll -->
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="http://farrellkramer.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+    <section id="tags">
+        <h1>Tags for Code Farrell</h1>
+        <div class="panel-group" id="accordion">        </div>
 
-                            <li><a href="https://github.com/farrellkramer">GitHub</a></li>
-                            <li><a href="https://twitter.com/farrellkramer">Twitter</a></li>
-                            <li><a href="https://www.facebook.com/farrellkramer">Facebook</a></li>
-                            <li><a href="https://www.linkedin.com/in/farrellkramer">LinkedIn</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
+    </section>
+        </div>
+        <div class="col-sm-3 well well-sm" id="sidebar">
 
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
+<aside>
+    <section>
+        <ul class="list-group list-group-flush">
+                <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Social</span></h4>
+                  <ul class="list-group" id="social">
+                    <li class="list-group-item"><a href="https://github.com/farrellkramer"><i class="fa fa-github-square fa-lg"></i> GitHub</a></li>
+                    <li class="list-group-item"><a href="https://twitter.com/farrellkramer"><i class="fa fa-twitter-square fa-lg"></i> Twitter</a></li>
+                    <li class="list-group-item"><a href="https://www.facebook.com/farrellkramer"><i class="fa fa-facebook-square fa-lg"></i> Facebook</a></li>
+                    <li class="list-group-item"><a href="https://www.linkedin.com/in/farrellkramer"><i class="fa fa-linkedin-square fa-lg"></i> LinkedIn</a></li>
+                  </ul>
+                </li>
 
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
+
+
+                <li class="list-group-item"><a href="http://farrellkramer.github.io/"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
+                    <ul class="list-group " id="tags">
+                    </ul>
+                </li>    
+    <li class="list-group-item"><h4><i class="fa fa-external-link-square fa-lg"></i><span class="icon-label">Links</span></h4>
+      <ul class="list-group" id="links">
+        <li class="list-group-item">
+            <a href="http://farrellkramer.com" target="_blank">
+                .farrell
+            </a>
+        </li>
+      </ul>
+    </li>
+
+        </ul>
+    </section>
+
+</aside>        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2014 Farrell Kramer
+            &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="http://farrellkramer.github.io/theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="http://farrellkramer.github.io/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="http://farrellkramer.github.io/theme/js/respond.min.js"></script>
 
 </body>
 </html>
